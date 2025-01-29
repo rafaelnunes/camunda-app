@@ -64,6 +64,23 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-jdbc</artifactId>
     </dependency>
+    
+    <dependency>
+    	<groupId>org.openjdk.nashorn</groupId>
+    	<artifactId>nashorn-core</artifactId>
+    	<version>15.4</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.camunda.bpm</groupId>
+    	<artifactId>camunda-engine-plugin-connect</artifactId>
+    </dependency>
+    
+    <dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20240303</version>
+	</dependency>
 
   </dependencies>
 
